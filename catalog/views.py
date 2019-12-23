@@ -93,9 +93,18 @@ from django.urls import reverse
 import datetime
 from django.contrib.auth.decorators import permission_required
 
-# from .forms import RenewBookForm
-from catalog.forms import RenewBookForm
+from .forms import RenewBookForm
+# from catalog.forms import RenewBookForm
 
+
+import datetime
+
+from django.contrib.auth.decorators import permission_required
+from django.shortcuts import get_object_or_404
+from django.http import HttpResponseRedirect
+from django.urls import reverse
+
+from catalog.forms import RenewBookForm
 
 @permission_required('catalog.can_mark_returned')
 def renew_book_librarian(request, pk):
@@ -115,9 +124,9 @@ def renew_book_librarian(request, pk):
             book_instance.save()
 
             # redirect to a new URL:
-            return HttpResponseRedirect(reverse('all-borrowed'))
+            return HttpResponseRedirect(reverse('all-borrowed') )
 
-    # If this is a GET (or any other method) create the default form
+    # If this is a GET (or any other method) create the default form.
     else:
         proposed_renewal_date = datetime.date.today() + datetime.timedelta(weeks=3)
         form = RenewBookForm(initial={'renewal_date': proposed_renewal_date})
