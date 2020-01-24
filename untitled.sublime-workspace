@@ -24,11 +24,30 @@
 	"buffers":
 	[
 		{
-			"contents": "I/BarCodeReader( 3147): Event message: 400, arg1=1, arg2=0\nD/ScanV20 ( 3147): SE4500Device_V20 - onDecodeComplete  symbology = 1 length = -3\nD/ScanV20 ( 3147): SE4500Device_V20 - multi-decode count , decode-count = 1\nI/BarCodeReader( 3147): Event message: 10000, arg1=11, arg2=13\nD/ScanV20 ( 3147): SE4500Device_V20 - onDecodeComplete  symbology = 11 length = 13\nD/ScanV20 ( 3147): SE4500Device_V20 - notifyScanComplete, mBarcodeType = 11 decodeDataString = 4710700955888\nD/ScanV20 ( 3147): ScanService_V20 - onScanComplete: status=0 barcodeType=11 barcodeData=4710700955888\nD/ScanV20 ( 3147): ScanUtils - identifyBarCodeType , type = EAN-13\nW/ContextImpl( 3147): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1334 android.content.ContextWrapper.sendBroadcast:377 com.bw.scanservice.ScanService_V20.sendBarcodeResult:390 com.bw.scanservice.ScanService_V20.processingData:277 com.bw.scanservice.ScanService_V20.access$700:26 \nD/YToSettingsReceiver( 6251): onReceive Intent { act=com.android.scanservice.scancontext flg=0x10 cmp=com.android.settings/.YToSettingsReceiver (has extras) }\nD/YToSettingsReceiver( 6251): ACTION_ODM_SCANNER_GET_RESULT scanResult= 34373130373030393535383838\nW/ContextImpl( 6251): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1348 android.content.ContextWrapper.sendBroadcast:382 android.content.ContextWrapper.sendBroadcast:382 com.android.settings.YToSettingsReceiver.onReceive:262 android.app.ActivityThread.handleReceiver:2609",
+			"contents": "C6 93 E6 A9 1A 08 04 00 62 63 64 65 66 67 68 69 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF 07 80 69 FF FF FF FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 70 61 69 6c 69 76 40 79 61 2e 72 75 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF 07 80 69 FF FF FF FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF 07 80 69 FF FF FF FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF 07 80 69 FF FF FF FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF 07 80 69 FF FF FF FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF 07 80 69 FF FF FF FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF 07 80 69 FF FF FF FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF 07 80 69 FF FF FF FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF 07 80 69 FF FF FF FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF 07 80 69 FF FF FF FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF 07 80 69 FF FF FF FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF 07 80 69 FF FF FF FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF 07 80 69 FF FF FF FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF 07 80 69 FF FF FF FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF 07 80 69 FF FF FF FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF 07 80 69 FF FF FF FF FF FF\n\npailiv@ya.ru\n70 61 69 6c 69 76 40 79 61 2e 72 75\n\nC6 93 E6 A9 1A 08 04 00 62 63 64 65 66 67 68 69 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF 07 80 69 FF FF FF FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF 07 80 69 FF FF FF FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF 07 80 69 FF FF FF FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF 07 80 69 FF FF FF FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF 07 80 69 FF FF FF FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF 07 80 69 FF FF FF FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF 07 80 69 FF FF FF FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF 07 80 69 FF FF FF FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF 07 80 69 FF FF FF FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF 07 80 69 FF FF FF FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF 07 80 69 FF FF FF FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF 07 80 69 FF FF FF FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF 07 80 69 FF FF FF FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF 07 80 69 FF FF FF FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF 07 80 69 FF FF FF FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF 07 80 69 FF FF FF FF FF FF",
 			"settings":
 			{
-				"buffer_size": 1569,
-				"line_ending": "Unix"
+				"buffer_size": 6194,
+				"line_ending": "Unix",
+				"name": "C6 93 E6 A9 1A 08 04 00 62 63 64 65 66 67 68 69 00"
+			}
+		},
+		{
+			"contents": "0D:84:83:DE:D4:88:04:00:C8:45:00:20:00:00:00:17\n",
+			"settings":
+			{
+				"buffer_size": 48,
+				"line_ending": "Unix",
+				"name": "0D:84:83:DE:D4:88:04:00:C8:45:00:20:00:00:00:17"
+			}
+		},
+		{
+			"contents": "Список ошибок к исправлению\n\n29:49.306002-0,EXCP,3,process=rphost,p:processName=trimet_trade,OSThread=89415,t:clientID=234,t:applicationName=1CV8C,t:computerName=SERVERT,t:connectID=9552,SessionID=122,Usr=Галеева Олеся Владимировна,AppID=1CV8C,Exception=eece8795-ccc9-4865-8779-0482cfe4a31e,Descr='./src/ULSettingsSourceServerStrategyImpl.cpp(64):\neece8795-ccc9-4865-8779-0482cfe4a31e: Запрос динамического списка не должен содержать ключевое слово ПЕРВЫЕ.',Context=Система.ПолучитьФорму : Обработка.ПодборТоваровВДокументПродажи.Форма\n29:52.181001-0,CLSTR,2,process=rphost,p:processName=trimet_trade,OSThread=89454,t:clientID=279,t:applicationName=BackgroundJob,t:computerName=srv1c01,t:connectID=9646,Event=Successful service call,RmngrURL=tcp://srv1c01:1541,ServiceName=SessionDataService,InfoBase=trimet_trade,ExtData=BackgroundJob.CommonModule.ДлительныеОперации.ВыполнитьСКонтекстомКлиента,SessionID=8768514f-07dc-4e0d-86a8-1c9278028e1e,TargetCall=0\n29:52.955000-0,EXCP,3,process=rphost,p:processName=trimet_trade,OSThread=89415,t:clientID=234,t:applicationName=1CV8C,t:computerName=SERVERT,t:connectID=9552,SessionID=122,Usr=Галеева Олеся Владимировна,AppID=1CV8C,Exception=eece8795-ccc9-4865-8779-0482cfe4a31e,Descr='./src/ULSettingsSourceServerStrategyImpl.cpp(64):\neece8795-ccc9-4865-8779-0482cfe4a31e: Запрос динамического списка не должен содержать ключевое слово ПЕРВЫЕ.',Context=Система.ПолучитьФорму : Обработка.ПодборТоваровВДокументПродажи.Форма\n\n\n34:17.520000-0,EXCP,2,process=rphost,p:processName=trimet_trade,OSThread=92095,t:clientID=239,t:applicationName=1CV8C,t:computerName=SERVERT,t:connectID=9554,SessionID=134,Usr=Иваненко Анастасия Сергеевна,AppID=1CV8C,Exception=eece8795-ccc9-4865-8779-0482cfe4a31e,Descr='./src/ULSettingsSourceServerStrategyImpl.cpp(64):\neece8795-ccc9-4865-8779-0482cfe4a31e: Основная таблица динамического списка задана неверно.',Context='Система.ПолучитьФорму : ОбщаяФорма.ПрисоединенныеФайлы\nОбщаяФорма.ПрисоединенныеФайлы.Форма : 79 : НастроитьДинамическийСписок(ИмяСправочникаХранилищаФайлов);\n\tОбщаяФорма.ПрисоединенныеФайлы.Форма : 1763 : Список.Параметры.УстановитьЗначениеПараметра(\"ВладелецФайлов\",      Параметры.ВладелецФайла);'",
+			"settings":
+			{
+				"buffer_size": 2188,
+				"line_ending": "Unix",
+				"name": "Список ошибок к исправлению"
 			}
 		}
 	],
@@ -75,6 +94,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
 			[
 				"Django: migra",
 				"Django: Migrate Database"
@@ -143,6 +166,40 @@
 	],
 	"file_history":
 	[
+		"/mnt/data/work/1c_logs/techlogs/excp/rphost_79224/20012313.log",
+		"/mnt/data/work/1c_logs/techlogs/excp/rphost_89024/20012314.log",
+		"/mnt/data/work/1c_logs/techlogs/excp/rphost_39572/20012314.log",
+		"/mnt/data/work/1c_logs/techlogs/excp_0930/ragent_86602/20012309.log",
+		"/mnt/data/work/1c_logs/techlogs/excp_0930/rmngr_101382/20012309.log",
+		"/mnt/data/work/1c_logs/techlogs/excp_0930/rmngr_124938/20012309.log",
+		"/mnt/data/work/1c_logs/techlogs/excp_0930/rphost_125108/20012309.log",
+		"/mnt/data/work/1c_logs/techlogs/excp_0930/rphost_125722/20012309.log",
+		"/mnt/data/work/1c_logs/techlogs/excp_0930/rphost_126136/20012309.log",
+		"/mnt/data/work/1c_logs/techlogs/excp_0930/rphost_127577/20012309.log",
+		"/mnt/data/work/1c_logs/techlogs/excp_0930/rphost_4240/20012309.log",
+		"/mnt/data/work/1c_logs/techlogs/excp_0930/rphost_8272/20012309.log",
+		"/mnt/data/work/1c_logs/techlogs/excp_0930/ragent_124920/20012309.log",
+		"/mnt/data/work/1c_logs/techlogs/excp_0930/rphost_121420/20012309.log",
+		"/mnt/data/work/1c_logs/techlogs/excp_0930/rphost_93028/20012309.log",
+		"/mnt/data/work/1c_logs/techlogs/excp_0835/ragent_86602/20012308.log",
+		"/mnt/data/work/1c_logs/techlogs/excp_0930/rphost_119425/20012309.log",
+		"/mnt/data/work/1c_logs/techlogs/excp_0930/rphost_102116/20012308.log",
+		"/mnt/data/work/1c_logs/techlogs/excp_0930/rphost_126854/20012308.log",
+		"/mnt/data/work/1c_logs/techlogs/excp_0930/ragent_86602/20012308.log",
+		"/mnt/data/work/1c_logs/techlogs/excp_0930/rphost_102116/20012307.log",
+		"/mnt/data/work/1c_logs/techlogs/excp_0930/errors.log",
+		"/mnt/data/work/1c_logs/techlogs/excp_0914/rmngr_101382/20012309.log",
+		"/mnt/data/work/1c_logs/techlogs/excp_0914/ragent_86602/20012309.log",
+		"/mnt/data/work/1c_logs/techlogs/excp_0914/rphost_121420/20012309.log",
+		"/mnt/data/work/1c_logs/techlogs/excp_0914/rphost_93028/20012309.log",
+		"/mnt/data/work/1c_logs/techlogs/excp_0914/rphost_119425/20012309.log",
+		"/mnt/data/work/1c_logs/techlogs/excp/rphost_126854/20012308.log",
+		"/mnt/data/work/1c_logs/techlogs/excp/rphost_102116/20012308.log",
+		"/mnt/data/work/1c_logs/techlogs/excp/ragent_86602/20012218.log",
+		"/home/parshin/pailiv.hex",
+		"/home/parshin/Загрузки/Guitar.7.5.3.1751/Read me.txt",
+		"/home/parshin/Загрузки/Arobas.Guitar.Pro.v6.1.6.11621.Incl.Keymaker-EMBRACE/WIN/embrace.nfo",
+		"/home/parshin/Загрузки/Arobas.Guitar.Pro.v6.1.6.11621.Incl.Keymaker-EMBRACE/Linux.Incl.Keymaker-EMBRACE/embrace.nfo",
 		"/home/parshin/Загрузки/031105 с 03,11,2019 по 03,11,2019.rtf",
 		"/mnt/data/AndroidSDK/platforms/android-22/data/broadcast_actions.txt",
 		"/usr/share/applications/sublime_text.desktop",
@@ -236,45 +293,11 @@
 		"/home/parshin/Загрузки/config (3).txt",
 		"/mnt/data/work/grandstream/XML_Configuration_File_Generator_v1.8/GS_Config_TXT_to_XML_v1.8.sh",
 		"/home/parshin/VNCOMPS/VNCOMP83/example/NativeAPI/AddInNative.cpp",
-		"/mnt/data/work/grandstream/configuration (копия)/gxp/users",
-		"/home/parshin/Загрузки/config (2).txt",
-		"/mnt/data/work/grandstream/configuration/phonebook.xml",
-		"/home/parshin/Загрузки/Новая таблица - Лист1 (1).tsv",
-		"/home/parshin/asterisk/create_gs_config.sh",
-		"/home/parshin/Загрузки/Новая таблица - Лист1.tsv",
-		"/home/parshin/Загрузки/Сценарий обработки звонков",
-		"/home/parshin/.config/sublime-text-3/Packages/User/mingw.sublime-build",
-		"/home/parshin/.config/sublime-text-3/Packages/User/c++.sublime-build",
-		"/home/parshin/VNCOMPS/VNCOMP83/template/AddInNative.cpp",
-		"/home/parshin/VNCOMPS/VNCOMP83/include/com.h",
-		"/home/parshin/VNCOMPS/VNCOMP83/example/NativeAPI/types.h",
-		"/home/parshin/VNCOMPS/VNCOMP83/example/NativeAPI/com.h",
-		"/home/parshin/c++/hello.cpp",
-		"/home/parshin/Загрузки/xm-debian.cfg",
-		"/home/parshin/1clogs_150419/rphost_62390/19041509.log",
-		"/home/parshin/1clogs_150419_trimet_trade/rphost_105603/19041512.log",
-		"/home/parshin/1clogs_150419_trimet_trade/rphost_94490/19041512.log",
-		"/home/parshin/1clogs_150419_trimet_trade/rphost_94490/19041511.log",
-		"/home/parshin/1clogs_150419_trimet_trade/rphost_90645/19041511.log",
-		"/home/parshin/1clogs_150419_trimet_trade/rphost_84718/19041511.log",
-		"/home/parshin/1clogs_150419_trimet_trade/rphost_80604/19041511.log",
-		"/home/parshin/1clogs_150419_trimet_trade/rphost_80604/19041510.log",
-		"/home/parshin/1clogs_150419_trimet_trade/rphost_74066/19041510.log",
-		"/home/parshin/1clogs_150419_trimet_trade/rphost_66880/19041510.log",
-		"/home/parshin/1clogs/trade_logs/19041109 (1).log",
-		"/home/parshin/1clogs/trade_logs/query.pl",
-		"/home/parshin/1clogs/descr.pl",
-		"/home/parshin/1clogs/trade_logs/19041110.log",
-		"/home/parshin/1clogs/trade_logs/19041110 (39).log",
-		"/home/parshin/1clogs/trade_logs/19041110 (1).log",
-		"/home/parshin/1clogs/trade_logs/19041109.log",
-		"/home/parshin/1clogs/19041109 (11).log",
-		"/home/parshin/1clogs/19041109 (19).log",
-		"/home/parshin/1clogs/19041110 (46).log"
+		"/mnt/data/work/grandstream/configuration (копия)/gxp/users"
 	],
 	"find":
 	{
-		"height": 45.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -288,6 +311,25 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"excp",
+			"127.0.1.1",
+			"No response from server",
+			"response",
+			"No response from server",
+			"EXCP",
+			"9b1f183d-9eda-4b7f-868a-59060261dd3c",
+			"EXCP",
+			"9db1fa37-b455-4f3f-b8dd-7de0ea7d6da3",
+			"excp",
+			"119513",
+			"0874860b-2b41-45e1-bc2b-6e186eb37771",
+			"excp",
+			"8272",
+			"Process terminated",
+			"Software licensing error",
+			"No response from server",
+			"excp",
+			"4e",
 			"AIRPLANE"
 		],
 		"highlight": true,
@@ -306,7 +348,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -314,22 +356,23 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1569,
+						"buffer_size": 6194,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								24,
+								24
 							]
 						],
 						"settings":
 						{
-							"SL.13.region_keys":
+							"SL.14.region_keys":
 							[
 							],
+							"auto_name": "C6 93 E6 A9 1A 08 04 00 62 63 64 65 66 67 68 69 00",
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
 							"bracket_highlighter.clone_locations":
@@ -359,11 +402,6 @@
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
@@ -374,6 +412,11 @@
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
@@ -427,11 +470,128 @@
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 48,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								48,
+								48
+							]
+						],
+						"settings":
+						{
+							"SL.15.region_keys":
+							[
+							],
+							"auto_name": "0D:84:83:DE:D4:88:04:00:C8:45:00:20:00:00:00:17",
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
@@ -447,37 +607,133 @@
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"default_dir": "/home/parshin/projects/locallibrary",
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2188,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2188,
+								2188
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Список ошибок к исправлению",
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
-								"bh_single_quote_content"
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
 							],
+							"default_dir": "/mnt/data/work/1c_logs/techlogs/excp_0930/rphost_126854",
 							"git_gutter_is_enabled": false,
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
@@ -493,7 +749,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 38.0
+		"height": 28.0
 	},
 	"input":
 	{
@@ -538,6 +794,10 @@
 	{
 		"height": 0.0
 	},
+	"output.hex_viewer_inspector":
+	{
+		"height": 0.0
+	},
 	"output.mdpopups":
 	{
 		"height": 0.0
@@ -546,7 +806,7 @@
 	"project": "untitled.sublime-project",
 	"replace":
 	{
-		"height": 72.0
+		"height": 52.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -584,7 +844,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 160.0,
+	"side_bar_width": 64.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
